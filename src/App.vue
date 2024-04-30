@@ -31,9 +31,7 @@ export default {
   },
   methods: {
     fetchLots() {
-      console.log("demo")
       this.lots = getMockLots();
-      console.log("demo2")
     }
   }
 }
